@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:fb_yt_links/Resources/Private/Language/locallang.xlf" date="2024-05-12T00:23:04Z" product-name="fb_yt_links">
+		<header/>
+		<body>
+			<trans-unit id="tx_fbytlinks_domain_model_youtubelinks" resname="tx_fbytlinks_domain_model_youtubelinks">
+				<source>You Tube Links</source>
+			</trans-unit>
+			<trans-unit id="tx_fbytlinks_domain_model_youtubelinks.description" resname="tx_fbytlinks_domain_model_youtubelinks.description">
+				<source>You Tube Links</source>
+			</trans-unit>
+			<trans-unit id="tx_fbytlinks_domain_model_youtubelinks.title" resname="tx_fbytlinks_domain_model_youtubelinks.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_fbytlinks_domain_model_youtubelinks.title.description" resname="tx_fbytlinks_domain_model_youtubelinks.title.description">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_fbytlinks_domain_model_youtubelinks.berschreibung" resname="tx_fbytlinks_domain_model_youtubelinks.berschreibung">
+				<source>Berschreibung</source>
+			</trans-unit>
+			<trans-unit id="tx_fbytlinks_domain_model_youtubelinks.berschreibung.description" resname="tx_fbytlinks_domain_model_youtubelinks.berschreibung.description">
+				<source>Berschreibung</source>
+			</trans-unit>
+			<trans-unit id="tx_fbytlinks_domain_model_youtubelinks.url" resname="tx_fbytlinks_domain_model_youtubelinks.url">
+				<source>Url</source>
+			</trans-unit>
+			<trans-unit id="tx_fbytlinks_domain_model_youtubelinks.url.description" resname="tx_fbytlinks_domain_model_youtubelinks.url.description">
+				<source>Url</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

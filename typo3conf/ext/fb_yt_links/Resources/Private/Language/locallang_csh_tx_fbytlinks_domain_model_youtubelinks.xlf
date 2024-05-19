@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:fb_yt_links/Resources/Private/Language/locallang_csh_tx_fbytlinks_domain_model_youtubelinks.xlf" date="2024-05-12T00:23:04Z" product-name="fb_yt_links">
+		<header/>
+		<body>
+			<trans-unit id="title.description" resname="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="berschreibung.description" resname="berschreibung.description">
+				<source>berschreibung</source>
+			</trans-unit>
+			<trans-unit id="url.description" resname="url.description">
+				<source>url</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,35 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 11.5.0-11.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "generateDocumentationTemplate": false,
+            "generateEditorConfig": false,
+            "generateEmptyGitRepository": false,
+            "sourceLanguage": "en",
+            "state": "beta",
+            "targetVersion": "11.5.0-11.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "fb_yt_links",
+        "name": "Youtube links",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [],
+        "plugins": [],
+        "vendorName": "Falconbyte"
+    },
+    "wires": [],
+    "storagePath": "C:\/xampp\/htdocs\/typo3extension\/typo3conf\/ext\/",
+    "log": {
+        "last_modified": "2024-05-12 12:20",
+        "extension_builder_version": "11.0.12",
+        "be_user": " (1)"
+    }
+}
