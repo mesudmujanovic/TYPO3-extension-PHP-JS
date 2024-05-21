@@ -92,11 +92,17 @@ return [
         'viewpage' => [
             'packagePath' => 'typo3/sysext/viewpage/',
         ],
+        'container' => [
+            'packagePath' => 'typo3conf/ext/container/',
+        ],
         'extension_builder' => [
             'packagePath' => 'typo3conf/ext/extension_builder/',
         ],
         'fb_yt_links' => [
             'packagePath' => 'typo3conf/ext/fb_yt_links/',
+        ],
+        'gridelements' => [
+            'packagePath' => 'typo3conf/ext/gridelements/',
         ],
         'news' => [
             'packagePath' => 'typo3conf/ext/news/',

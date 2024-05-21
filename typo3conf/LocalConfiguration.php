@@ -45,6 +45,15 @@ return [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
         ],
+        'gridelements' => [
+            'additionalStylesheet' => '',
+            'disableAutomaticUnusedColumnCorrection' => '0',
+            'disableCopyFromPageButton' => '0',
+            'disableDragInWizard' => '0',
+            'fluidBasedPageModule' => '0',
+            'nestingInListModule' => '0',
+            'overlayShortcutTranslation' => '0',
+        ],
         'news' => [
             'advancedMediaPreview' => '1',
             'archiveDate' => 'date',

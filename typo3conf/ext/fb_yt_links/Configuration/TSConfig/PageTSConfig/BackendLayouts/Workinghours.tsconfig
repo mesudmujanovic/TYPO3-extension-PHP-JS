@@ -1,0 +1,10 @@
+tx_gridelements.setup {
+    186 {
+        title = 186 - Working Hours
+        config {
+            rowCount = 0
+            colCount = 0
+        }
+        flexformDS = FILE:EXTb_yt_links/Configuration/FlexForm/ContentElements/WorkingHours.xml
+    }
+}

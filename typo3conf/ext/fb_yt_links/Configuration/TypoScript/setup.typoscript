@@ -17,14 +17,11 @@ page {
             10 = EXT:fb_yt_links/Resources/Private/Layouts/
         }
 
+        templateRootPaths {
+            10 = EXT:fb_yt_links/Resources/Private/Templates/
+        }
         debug = 1
     }
 }
-<INCLUDE_TYPOSCRIPT:source="FILE:EXT:bitconex_theme/Configuration/TypoScript/Base/lib.main.typoscript">
-
-tt_content {
-    moj_novi_element =< lib.contentElement
-    moj_novi_element {
-        templateName = NoviElement
-    }
-}
+<INCLUDE_TYPOSCRIPT:source="FILE:EXT:fb_yt_links/Configuration/TypoScript/Base/lib.main.typoscript">
+<INCLUDE_TYPOSCRIPT:source="FILE:EXT:fb_yt_links/Configuration/TypoScript/Ext/lib.contentElement.typoscript">

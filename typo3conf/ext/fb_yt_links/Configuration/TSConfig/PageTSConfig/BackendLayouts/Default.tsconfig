@@ -19,23 +19,3 @@ mod.web_layout.BackendLayouts {
         }
     }
 }
-
-mod.web_layout.BackendLayouts.moj_novi_element {
-    title = Novi Element
-    config {
-        backend_layout {
-            colCount = 1
-            rowCount = 1
-            rows {
-                1 {
-                    columns {
-                        1 {
-                            name = Novi Element
-                            colPos = 0
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
