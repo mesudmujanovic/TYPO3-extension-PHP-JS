@@ -38,13 +38,12 @@ class YouTubeLinksController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
     /**
      * action list
      *
-     * @return \Psr\Http\Message\ResponseInterface
+     * @return
      */
-    public function listAction(): \Psr\Http\Message\ResponseInterface
+    public function listAction()
     {
         $youTubeLinks = $this->youTubeLinksRepository->findAll();
         $this->view->assign('youTubeLinks', $youTubeLinks);
-        return $this->htmlResponse();
     }
 
     /**
@@ -53,9 +52,8 @@ class YouTubeLinksController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
      * @param \Falconbyte\FbYtLinks\Domain\Model\YouTubeLinks $youTubeLinks
      * @return \Psr\Http\Message\ResponseInterface
      */
-    public function showAction(\Falconbyte\FbYtLinks\Domain\Model\YouTubeLinks $youTubeLinks): \Psr\Http\Message\ResponseInterface
+    public function showAction(\Falconbyte\FbYtLinks\Domain\Model\YouTubeLinks $youTubeLinks)
     {
         $this->view->assign('youTubeLinks', $youTubeLinks);
-        return $this->htmlResponse();
     }
 }

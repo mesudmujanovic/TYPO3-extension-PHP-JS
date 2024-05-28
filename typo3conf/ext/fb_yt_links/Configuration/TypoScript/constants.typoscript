@@ -1,0 +1,14 @@
+plugin.tx_fbytlinks_members {
+    view {
+        # cat=plugin.tx_fbytlinks_members/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:fb_yt_links/Resources/Private/Templates/
+        # cat=plugin.tx_fbytlinks_members/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:fb_yt_links/Resources/Private/Partials/
+        # cat=plugin.tx_fbytlinks_members/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:fb_yt_links/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_fbytlinks_members//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

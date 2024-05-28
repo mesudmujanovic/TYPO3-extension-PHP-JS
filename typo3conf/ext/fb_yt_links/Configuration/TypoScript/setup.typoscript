@@ -1,11 +1,33 @@
+plugin.tx_fbytlinks_members {
+    view {
+        templateRootPaths.0 = EXT:fb_yt_links/Resources/Private/Templates/
+        templateRootPaths.1 = {$plugin.tx_fbytlinks_members.view.templateRootPath}
+        partialRootPaths.0 = EXT:fb_yt_links/Resources/Private/Partials/
+        partialRootPaths.1 = {$plugin.tx_fbytlinks_members.view.partialRootPath}
+        layoutRootPaths.0 = EXT:fb_yt_links/Resources/Private/Layouts/
+        layoutRootPaths.1 = {$plugin.tx_fbytlinks_members.view.layoutRootPath}
+    }
+    persistence {
+        storagePid = {$plugin.tx_fbytlinks_members.persistence.storagePid}
+        #recursive = 1
+    }
+    features {
+        #skipDefaultArguments = 1
+        # if set to 1, the enable fields are ignored in BE context
+        ignoreAllEnableFieldsInBe = 0
+    }
+    mvc {
+        #callDefaultActionIfActionCantBeResolved = 1
+    }
+}
 page = PAGE
 page {
     10 = FLUIDTEMPLATE
     10 {
         config{
-                no_cache = 1
-                contentObjectExceptionHandler = 0
-                }
+            no_cache = 1
+            contentObjectExceptionHandler = 0
+        }
 
         file = EXT:fb_yt_links/Resources/Private/Templates/Page/Default.html
 

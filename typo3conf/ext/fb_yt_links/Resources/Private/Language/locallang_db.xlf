@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:fb_yt_links/Resources/Private/Language/locallang_db.xlf" date="2024-05-12T00:23:04Z" product-name="fb_yt_links">
+	<file source-language="en" datatype="plaintext" original="EXT:fb_yt_links/Resources/Private/Language/locallang_db.xlf" date="2024-05-27T16:22:48Z" product-name="fb_yt_links">
 		<header/>
 		<body>
 			<trans-unit id="tx_fbytlinks_domain_model_youtubelinks" resname="tx_fbytlinks_domain_model_youtubelinks">
@@ -26,6 +26,12 @@
 			</trans-unit>
 			<trans-unit id="tx_fbytlinks_domain_model_youtubelinks.url.description" resname="tx_fbytlinks_domain_model_youtubelinks.url.description">
 				<source>Url</source>
+			</trans-unit>
+			<trans-unit id="tx_fb_yt_links_members.name" resname="tx_fb_yt_links_members.name">
+				<source>Member list</source>
+			</trans-unit>
+			<trans-unit id="tx_fb_yt_links_members.description" resname="tx_fb_yt_links_members.description">
+				<source></source>
 			</trans-unit>
 		</body>
 	</file>

@@ -97,17 +97,34 @@
         },
         "extensionKey": "fb_yt_links",
         "name": "Youtube links",
-        "originalExtensionKey": "",
-        "originalVendorName": "",
-        "persons": [],
-        "plugins": [],
+        "originalExtensionKey": "fb_yt_links",
+        "originalVendorName": "Falconbyte",
+        "persons": [
+            {
+                "company": "bitconex",
+                "email": "mesud9494@gmail.com",
+                "name": "mesud mujanovic",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": ""
+                },
+                "description": "",
+                "key": "members",
+                "name": "Member list"
+            }
+        ],
         "vendorName": "Falconbyte"
     },
     "wires": [],
     "storagePath": "C:\/xampp\/htdocs\/typo3extension\/typo3conf\/ext\/",
     "log": {
-        "last_modified": "2024-05-12 12:23",
+        "last_modified": "2024-05-27 04:22",
         "extension_builder_version": "11.0.12",
-        "be_user": " (1)"
+        "be_user": " (2)"
     }
 }

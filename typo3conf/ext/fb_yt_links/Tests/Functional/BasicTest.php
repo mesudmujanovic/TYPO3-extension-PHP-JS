@@ -8,6 +8,8 @@ use TYPO3\TestingFramework\Core\Functional\FunctionalTestCase;
 
 /**
  * Test case
+ *
+ * @author mesud mujanovic <mesud9494@gmail.com>
  */
 class BasicTest extends FunctionalTestCase
 {
