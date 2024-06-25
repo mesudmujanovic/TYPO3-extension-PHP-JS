@@ -95,6 +95,9 @@ return [
         'container' => [
             'packagePath' => 'typo3conf/ext/container/',
         ],
+        'custom_extension' => [
+            'packagePath' => 'typo3conf/ext/custom_extension/',
+        ],
         'extension_builder' => [
             'packagePath' => 'typo3conf/ext/extension_builder/',
         ],

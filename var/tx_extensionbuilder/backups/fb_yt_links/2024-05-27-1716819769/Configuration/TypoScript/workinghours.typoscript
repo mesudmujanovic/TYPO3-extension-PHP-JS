@@ -1,0 +1,21 @@
+tx_gridelements.setup {
+    186 {
+        title = Working Hours
+        description = Element za prikaz radnog vremena
+        config {
+            colCount = 1
+            rowCount = 1
+            rows {
+                1 {
+                    columns {
+                        1 {
+                            name = Working Hours Column
+                            colPos = 0
+                        }
+                    }
+                }
+            }
+        }
+        flexformDS = FILE:EXT:fb_yt_links/Configuration/FlexForms/ContentElements/WorkingHours.xml
+    }
+}

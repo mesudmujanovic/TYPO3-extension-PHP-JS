@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <ROOT>
+        <type>array</type>
+        <el>
+            <field_opt_working_hours>
+                <TCEforms>
+                    <label>Working hours</label>
+                    <config>
+                        <type>input</type>
+                        <size>50</size>
+                        <max>255</max>
+                        <eval>trim</eval>
+                    </config>
+                </TCEforms>
+            </field_opt_working_hours>
+        </el>
+    </ROOT>
+</T3DataStructure>
+

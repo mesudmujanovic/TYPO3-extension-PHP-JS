@@ -1,21 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:then="http://www.w3.org/1999/xhtml" xmlns:>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>List of YouTube Links</title>
 </head>
+
 <body>
-
-<h1>List of YouTube Links</h1>
-<ul>
-    <f:for each="{youTubeLinks}" as="youTubeLink">
-        <li>
-            <a href="{f:uri.action(action: 'show', arguments: {youTubeLinks: youTubeLink})}">
-                {youTubeLink.title}
-            </a>
-        </li>
-    </f:for>
-</ul>
-
+    <h1>List of YouTube Links</h1>
 </body>
+
+
 </html>

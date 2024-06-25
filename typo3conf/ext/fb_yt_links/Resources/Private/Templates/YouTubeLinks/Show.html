@@ -1,0 +1,13 @@
+<f:layout name="Default" />
+<f:section name="content">
+    <h1>List of YouTube Links</h1>
+    <f:if condition="{youTubeLinks}">
+        <ul>
+            <f:for each="{youTubeLinks}" as="youTubeLink">
+                <li>
+                    <a href="{youTubeLink.url}">{youTubeLink.title}</a>
+                </li>
+            </f:for>
+        </ul>
+    </f:if>
+</f:section>

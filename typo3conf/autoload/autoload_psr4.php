@@ -7,6 +7,7 @@ $typo3InstallDir = \TYPO3\CMS\Core\Core\Environment::getPublicPath() . '/';
 return array(
     'B13\\Container\\' => array($typo3InstallDir . 'typo3conf/ext/container/Classes'),
     'EBT\\ExtensionBuilder\\' => array($typo3InstallDir . 'typo3conf/ext/extension_builder/Classes'),
+    'Falconbyte\\CustomExtension\\' => array($typo3InstallDir . 'typo3conf/ext/custom_extension/Classes'),
     'Falconbyte\\FbYtLinks\\' => array($typo3InstallDir . 'typo3conf/ext/fb_yt_links/Classes'),
     'GeorgRinger\\News\\' => array($typo3InstallDir . 'typo3conf/ext/news/Classes'),
     'GridElementsTeam\\Gridelements\\' => array($typo3InstallDir . 'typo3conf/ext/gridelements/Classes'),

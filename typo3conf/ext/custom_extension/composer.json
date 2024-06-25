@@ -1,0 +1,47 @@
+{
+  "name": "falconbyte/custom_extension",
+  "type": "typo3-cms-extension",
+  "description": "Opis prilagođene ekstenzije.",
+  "authors": [
+    {
+      "name": "Mesud",
+      "email": "mesud@example.com",
+      "role": "Developer"
+    }
+  ],
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "typo3/cms-core": "^11.5"
+  },
+  "require-dev": {
+    "typo3/testing-framework": "^6.9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Falconbyte\\CustomExtension\\": "Classes"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Falconbyte\\CustomExtension\\Tests\\": "Tests"
+    }
+  },
+  "replace": {
+    "typo3-ter/custom_extension": "self.version"
+  },
+  "config": {
+    "vendor-dir": ".Build/vendor",
+    "bin-dir": ".Build/bin"
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "TYPO3\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
+    ]
+  },
+  "extra": {
+    "typo3/cms": {
+      "web-dir": ".Build/Web",
+      "extension-key": "custom_extension"
+    }
+  }
+}
