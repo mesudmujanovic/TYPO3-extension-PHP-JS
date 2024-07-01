@@ -2248,15 +2248,20 @@ return array (
             array (
               0 => 
               array (
+                0 => 'BitConEx Theme Backend Layout (bitconex)',
+                1 => 'EXT:bitconex/Configuration/TSConfig/PageTSConfig/BackendLayouts/Default.tsconfig',
+              ),
+              1 => 
+              array (
                 0 => 'custom_extension Backend Layout (custom_extension)',
                 1 => 'EXT:custom_extension/Configuration/TSConfig/PageTSConfig/BackendLayouts/Default.tsconfig',
               ),
-              1 => 
+              2 => 
               array (
                 0 => 'fb_yt_links Backend Layout (fb_yt_links)',
                 1 => 'EXT:fb_yt_links/Configuration/TSConfig/PageTSConfig/BackendLayouts/Default.tsconfig',
               ),
-              2 => 
+              3 => 
               array (
                 0 => 'EXT:news :: Restrict pages to news records (news)',
                 1 => 'EXT:news/Configuration/TSconfig/Page/news_only.tsconfig',
@@ -8054,45 +8059,50 @@ return array (
               ),
               4 => 
               array (
+                0 => 'BitConEx Theme (bitconex)',
+                1 => 'EXT:bitconex/Configuration/TypoScript',
+              ),
+              5 => 
+              array (
                 0 => 'custom_extension links (custom_extension)',
                 1 => 'EXT:custom_extension/Configuration/TypoScript',
               ),
-              5 => 
+              6 => 
               array (
                 0 => 'Youtube links (fb_yt_links)',
                 1 => 'EXT:fb_yt_links/Configuration/TypoScript',
               ),
-              6 => 
+              7 => 
               array (
                 0 => 'Gridelements (deprecated) (gridelements)',
                 1 => 'EXT:gridelements/Configuration/TypoScript/',
               ),
-              7 => 
+              8 => 
               array (
                 0 => 'Gridelements w/DataProcessing (recommended) (gridelements)',
                 1 => 'EXT:gridelements/Configuration/TypoScript/DataProcessingLibContentElement',
               ),
-              8 => 
+              9 => 
               array (
                 0 => 'News (news)',
                 1 => 'EXT:news/Configuration/TypoScript',
               ),
-              9 => 
+              10 => 
               array (
                 0 => 'News Sitemap (deprecated) (news)',
                 1 => 'EXT:news/Configuration/TypoScript/Sitemap',
               ),
-              10 => 
+              11 => 
               array (
                 0 => 'News Sitemap (tx_seo) (news)',
                 1 => 'EXT:news/Configuration/TypoScript/SeoSitemap',
               ),
-              11 => 
+              12 => 
               array (
                 0 => 'News Styles Twitter Bootstrap (news)',
                 1 => 'EXT:news/Configuration/TypoScript/Styles/Twb',
               ),
-              12 => 
+              13 => 
               array (
                 0 => 'News Styles Twitter Bootstrap V5 (news)',
                 1 => 'EXT:news/Configuration/TypoScript/Styles/Twb5',

@@ -1,0 +1,31 @@
+page = PAGE
+
+page {
+
+    config {
+        no_cache = 1
+        contentObjectExceptionHandler = 0
+    }
+
+    meta {
+        viewport = width=device-width, initial-scale=1
+    }
+
+    shortcutIcon = EXT:bitconex/Resources/Public/Icons/Extension.png
+
+    10 = FLUIDTEMPLATE
+    10 {
+        templateName = Default
+        layoutRootPaths{
+            10 = EXT:bitconex/Resources/Private/Layouts
+        }
+        templateRootPaths{
+            10 = EXT:bitconex/Resources/Private/Templates
+        }
+        partialRootPaths{
+            10 = EXT:bitconex/Resources/Private/Partials
+        }
+    }
+}
+
+<INCLUDE_TYPOSCRIPT:source="FILE:EXT:bitconex/Configuration/TypoScript/Addons/lib.main.typoscript">

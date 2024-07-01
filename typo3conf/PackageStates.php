@@ -92,6 +92,9 @@ return [
         'viewpage' => [
             'packagePath' => 'typo3/sysext/viewpage/',
         ],
+        'bitconex' => [
+            'packagePath' => 'typo3conf/ext/bitconex/',
+        ],
         'container' => [
             'packagePath' => 'typo3conf/ext/container/',
         ],
